@@ -3,7 +3,6 @@
 const wall = document.querySelector('.wall');
 const spider = document.querySelector('.spider');
 
-
 // -1-
 // spider.style.top = '45%'
 // spider.style.left = '45%'
