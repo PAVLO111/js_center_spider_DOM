@@ -3,14 +3,11 @@
 const wall = document.querySelector('.wall');
 const spider = document.querySelector('.spider');
 
-// -1-
-// spider.style.top = '45%'
-// spider.style.left = '45%'
+const wallHeight = wall.clientHeight;
+const wallWidth = wall.clientWidth;
 
-// -2-
-spider.style.position = 'relative';
-spider.style.backgroundColor = 'red';
+const spiderHeight = spider.clientHeight;
+const spiderWidth = spider.clientWidth;
 
-wall.style.display = 'flex';
-wall.style.alignItems = 'center';
-wall.style.justifyContent = 'center';
+spider.style.top = (wallHeight - spiderHeight) / 2 + 'px';
+spider.style.left = (wallWidth - spiderWidth) / 2 + 'px';
